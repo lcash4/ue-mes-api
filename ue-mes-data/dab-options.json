@@ -1,0 +1,382 @@
+﻿{
+   "ConnectionStringName": "dab-connection-string",
+   "Dacpac": null,
+   "DatabaseType": 3,
+   "MergeDacpacs": false,
+   "Optional": false,
+   "ProjectPath": "C:\\Source\\ue-mes-api\\ue-mes-data",
+   "Tables": [
+      {
+         "Name": "[Authorization].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Authorization].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Authorization].[UserAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Authorization].[UserAttributeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Authorization].[UserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillOfMaterial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillOfMaterialPart]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillOfProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillOfProcessProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillOfProcessProcessWorkElement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillOfProcessProcessWorkElementAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Container]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContainerOrderItemUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContainerType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Defect]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DefectCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DefectProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FinishedGoods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryItemAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryItemScrap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryItemType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryLocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InventoryLocationType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemAttributeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemUnitConsumption]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemUnitDataCollection]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemUnitScrap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemUnitWorkElementHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderState]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Part]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PartItemAttributeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PartType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Supplier]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnitOfMeasure]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkElementStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkElementType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkElementTypeAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkElementTypeAttributeListItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Equipment].[State]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Equipment].[StateChange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Coater]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Equipment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Line]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Plant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Process]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Site]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Global].[Unit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Authorization_User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Authorization_UserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_BillOfMaterial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_BillOfMaterialPart]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_BillOfProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_BillOfProcessProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_BillOfProcessProcessWorkElement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_BillOfProcessProcessWorkElementAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_Container]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_ContainerOrderItemUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_Customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_Defect]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_DefectCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_DefectProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_FinishedGoods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_InventoryItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_InventoryItemAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_InventoryItemScrap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_InventoryLocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_Order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItemAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItemUnit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItemUnitConsumption]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItemUnitDataCollection]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItemUnitScrap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_OrderItemUnitWorkElementHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_Part]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_PartItemAttributeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_Supplier]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_WorkElementTypeAttribute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[dbo_WorkElementTypeAttributeListItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Equipment_StateChange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Coater]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Equipment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Line]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Plant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Process]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Site]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[History].[Global_Unit]",
+         "ObjectType": 0
+      }
+   ]
+}

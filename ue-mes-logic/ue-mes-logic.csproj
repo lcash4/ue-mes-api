@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>ue_mes_logic</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ue-mes-data\ue-mes-data.csproj" />
+    <ProjectReference Include="..\ue-mes-entities\ue-mes-entities.csproj" />
+  </ItemGroup>
+
+</Project>
