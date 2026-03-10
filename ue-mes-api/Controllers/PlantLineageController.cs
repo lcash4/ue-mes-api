@@ -68,6 +68,24 @@ namespace ue_mes_api.Controllers
             }
         }
 
+        /// <summary>
+        /// Get a site by its ID 
+        /// </summary>
+        /// <param name="siteId"></param>
+        /// <returns></returns>
+        [ProducesResponseType(typeof(int), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpGet]
+        [Route("site/GetSiteById/{siteId}")]
+        public Site GetSiteById(int siteId)
+        {
+            using (var siteLogic = new SiteLogic(SiteData))
+            {
+                var siteObject = siteLogic.GetSiteById(siteId);
+                return siteObject;
+            }
+        }
+
         #endregion
     }
 }
