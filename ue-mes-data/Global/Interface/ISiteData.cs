@@ -15,5 +15,12 @@ namespace ue_mes_data.Global.Interface
         /// <param name="displayName"></param>
         /// <returns></returns>
         public Site GetSiteByDisplayName(string displayName);
+
+        /// <summary>
+        /// Return a full site object for the given siteId
+        /// </summary>
+        /// <param name="siteId"></param>
+        /// <returns></returns>
+        public Site GetSiteById(int siteId);
     }
 }

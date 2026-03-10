@@ -37,6 +37,21 @@ namespace ue_mes_logic.Global
             return null;
         }
 
+        /// <summary>
+        /// Get a site by its ID
+        /// </summary>
+        /// <param name="siteId"></param>
+        /// <returns></returns>
+
+        public Site GetSiteById(int siteId)
+        {
+            if (siteId > 0)
+            {
+                return SiteData.GetSiteById(siteId);
+            }
+            return null;
+        }
+
         #endregion
     }
 }

@@ -62,6 +62,32 @@ namespace ue_mes_data.Global
             return site;
         }
 
+        public Site GetSiteById(int siteId)
+        {
+            Site site = null;
+            var includeChildren = true;
+
+            using (var mesProductionContext = new Model.MesProductionContext())
+            {
+                //var siteRecord = mesProductionContext.Sites
+                //    .Where(site => site.SiteId == siteId)
+                //    .Include(site => site.Plants)
+                //    .FirstOrDefault();
+
+                var siteRecord = mesProductionContext.Sites
+                    .Where(site => site.SiteId == siteId);
+
+                // Conditionally add child objects.  Not sure if I'll take this route or not.  Just an example
+                if (includeChildren)
+                    siteRecord = siteRecord.Include(site => site.Plants);
+
+                if (siteRecord != null)
+                {
+                    return mapper.Map<Site>(siteRecord.FirstOrDefault());
+                }
+            }
+            return site;
+        }
         #endregion
     }
 }
